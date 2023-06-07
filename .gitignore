@@ -1,0 +1,4 @@
+src/dragstar-infotainment-backups/*
+*.bak
+*.kicad_prl
+fp-info-cache
