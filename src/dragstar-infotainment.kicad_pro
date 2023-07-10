@@ -693,7 +693,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "GND1",
+        "name": "GNDAlt",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
@@ -831,7 +831,7 @@
         "microvia_drill": 0.1,
         "name": "LowBat",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -1139,8 +1139,8 @@
         "pattern": "AuxSwitch*"
       },
       {
-        "netclass": "GND1",
-        "pattern": "GND\\d"
+        "netclass": "GNDAlt",
+        "pattern": "GND\\w+"
       },
       {
         "netclass": "+5V",
