@@ -664,10 +664,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+5VRadio\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "+5VRadio_0_1"
@@ -698,7 +698,7 @@
       )
       (symbol "+5VRadio_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VRadio" (effects (font (size 1.27 1.27))))
+          (name "+5VRadio" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1055,7 +1055,7 @@
     (uuid 7dc15b56-2f94-4134-9b7d-1fdb5fa8e5bd)
   )
   (wire (pts (xy 246.38 97.79) (xy 246.38 95.25))
-    (stroke (width 0) (type default) (color 255 0 0 1))
+    (stroke (width 0) (type default))
     (uuid 7dcaa63c-9501-4dbd-92ce-a07ddf3b7df7)
   )
   (wire (pts (xy 97.79 127) (xy 104.14 127))
@@ -1199,7 +1199,7 @@
     (uuid d578e21a-e593-4b06-83c9-3ef2f4a87f20)
   )
   (wire (pts (xy 246.38 95.25) (xy 247.65 95.25))
-    (stroke (width 0) (type default) (color 255 0 0 1))
+    (stroke (width 0) (type default))
     (uuid d59e12c8-304b-4f46-9fbf-7e42da53e7fc)
   )
   (wire (pts (xy 238.76 127) (xy 238.76 116.84))
@@ -1239,7 +1239,7 @@
     (uuid e8b45cd9-b490-4682-932f-2b27e47ab494)
   )
   (wire (pts (xy 228.6 97.79) (xy 246.38 97.79))
-    (stroke (width 0) (type default) (color 255 0 0 1))
+    (stroke (width 0) (type default))
     (uuid e8d3b72b-cbdf-4300-b2fc-b9462a8a48b2)
   )
   (wire (pts (xy 95.25 76.2) (xy 88.9 76.2))
@@ -1539,7 +1539,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J22") (unit 1)
+          (reference "J24") (unit 1)
         )
       )
     )
@@ -1569,7 +1569,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J24") (unit 1)
+          (reference "J26") (unit 1)
         )
       )
     )
@@ -1626,7 +1626,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -1670,7 +1670,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J20") (unit 1)
+          (reference "J22") (unit 1)
         )
       )
     )
@@ -1699,7 +1699,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J23") (unit 1)
+          (reference "J25") (unit 1)
         )
       )
     )
@@ -1727,7 +1727,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -1794,7 +1794,7 @@
   (symbol (lib_id "Local Components:GNDRadio") (at 176.53 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f723199-8e03-405e-823d-e49caf309481)
-    (property "Reference" "#PWR021" (at 182.88 101.6 0)
+    (property "Reference" "#PWR?" (at 182.88 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDRadio" (at 180.34 102.235 90)
@@ -1810,10 +1810,35 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR072") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Local Components:+5VRadio") (at 228.6 97.79 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 71c64618-dce1-4f2a-b668-e30e0125e8b7)
+    (property "Reference" "#PWR074" (at 232.41 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5VRadio" (at 224.79 97.79 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 228.6 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 228.6 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2217518e-82b0-4b78-8ac4-a52f5f971fba))
+    (instances
+      (project "dragstar-infotainment"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -1853,32 +1878,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Local Components:+5VRadio") (at 228.6 97.79 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8e423f77-0648-40ac-a921-7e783228800f)
-    (property "Reference" "#PWR073" (at 232.41 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5VRadio" (at 224.79 97.79 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 228.6 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 228.6 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 09d64f98-ff3b-4d1b-b019-31c49776eab6))
-    (instances
-      (project "dragstar-infotainment"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR073") (unit 1)
+          (reference "J23") (unit 1)
         )
       )
     )
@@ -1906,7 +1906,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -1934,7 +1934,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -1943,7 +1943,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial_x2") (at 255.27 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a068fc66-5fe9-45ad-a9ed-2d02c39a07c6)
-    (property "Reference" "J26" (at 257.81 119.0382 0)
+    (property "Reference" "J28" (at 257.81 119.0382 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Line out" (at 257.81 121.5782 0)
@@ -1961,7 +1961,7 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J26") (unit 1)
+          (reference "J28") (unit 1)
         )
       )
     )
@@ -1993,7 +1993,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J25") (unit 1)
+          (reference "J27") (unit 1)
         )
       )
     )
@@ -2050,7 +2050,7 @@
           (reference "#FLG?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#FLG013") (unit 1)
+          (reference "#FLG012") (unit 1)
         )
       )
     )
@@ -2078,7 +2078,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
