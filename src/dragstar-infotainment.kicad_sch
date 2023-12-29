@@ -8,17 +8,14 @@
     (title "Drag Star 650 infotainment circuit")
     (date "2023-04-12")
     (rev "2.4")
+    (comment 1 "Wire gauge: 1mm² / 18AWG")
+    (comment 3 "Labels at the cable harness are in reference to each connected component")
+    (comment 4 "Labels are in reference to the local I/O scope boxes")
   )
 
   (lib_symbols
   )
 
-
-  (text "Labels are in reference to the local I/O scope boxes\nLabels at the cable harness are in reference to the Bus I/O\n\nWire gauge: 1mm² / 18AWG"
-    (at 177.8 180.34 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2fbd09fc-908a-4080-962b-ba4111a012ff)
-  )
 
   (sheet (at 203.2 88.9) (size 76.2 50.8) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))

@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 3.5,
-          "width": 2.0
+          "drill": 1.5,
+          "height": 3.0,
+          "width": 3.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -173,6 +173,7 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.5,
         0.75,
         1.0,
@@ -180,7 +181,9 @@
         2.0,
         3.0,
         5.0,
+        6.5,
         7.5,
+        8.0,
         10.0
       ],
       "via_dimensions": [
@@ -464,23 +467,6 @@
         "wire_width": 6
       },
       {
-        "bus_width": 39,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "+12V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 19
-      },
-      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
@@ -489,9 +475,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "+5V",
+        "name": "Black",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgb(72, 72, 72)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -506,9 +492,26 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Accessory",
+        "name": "Black-Thick",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 22
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Blue",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -523,77 +526,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Aux",
+        "name": "Brown",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "AuxSwitch",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 255, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 39,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "BATT+",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 255, 255)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 19
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "BSignal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(194, 0, 194)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "EBlinker",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 194, 0)",
+        "schematic_color": "rgb(128, 77, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -676,24 +611,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(72, 72, 72)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "GNDAlt",
+        "name": "Gray",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
@@ -710,9 +628,26 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "HBeam",
+        "name": "Green",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 255, 255)",
+        "schematic_color": "rgb(0, 194, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 1,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Green-Yellow",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -727,24 +662,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "HighBat",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 255, 255)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Key",
+        "name": "Orange",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.25,
@@ -761,111 +679,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Killswitch",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "LBeam",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 255, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "LBlinker",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(128, 77, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "LightSensor",
+        "name": "Purple",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(194, 0, 194)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "LowBat",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(194, 0, 194)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PLight",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 0, 255)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RBlinker",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -948,9 +764,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "VInst",
+        "name": "Red",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 194, 0)",
+        "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -965,9 +781,26 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "VLight",
+        "name": "Red-Thick",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 0, 255)",
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 22
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "White",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 255, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -982,13 +815,13 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "VOutlet",
+        "name": "White-Thick",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 153, 0)",
+        "schematic_color": "rgb(255, 255, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6
+        "wire_width": 22
       },
       {
         "bus_width": 12,
@@ -999,7 +832,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "VRadio",
+        "name": "Yellow",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 255, 0)",
         "track_width": 0.25,
@@ -1015,32 +848,28 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "+5V",
+        "netclass": "Red",
         "pattern": "\\+5V(\\w+)?"
       },
       {
-        "netclass": "Aux",
-        "pattern": "Aux\\d"
+        "netclass": "Purple",
+        "pattern": "SignalRelay"
       },
       {
-        "netclass": "BSignal",
-        "pattern": "BSignal"
-      },
-      {
-        "netclass": "+12V",
+        "netclass": "Red-Thick",
         "pattern": "+12V"
       },
       {
-        "netclass": "BATT+",
+        "netclass": "White-Thick",
         "pattern": "+BATT"
       },
       {
-        "netclass": "+12V",
+        "netclass": "Red-Thick",
         "pattern": "+VDC"
       },
       {
-        "netclass": "EBlinker",
-        "pattern": "EBlinker"
+        "netclass": "Green-Yellow",
+        "pattern": "Hazard"
       },
       {
         "netclass": "FLeft+",
@@ -1059,43 +888,39 @@
         "pattern": "FRight-"
       },
       {
-        "netclass": "GND",
+        "netclass": "Black",
         "pattern": "GND"
       },
       {
-        "netclass": "HBeam",
+        "netclass": "White",
         "pattern": "HBeam"
       },
       {
-        "netclass": "HighBat",
-        "pattern": "HighBat"
-      },
-      {
-        "netclass": "Key",
+        "netclass": "Red",
         "pattern": "Key"
       },
       {
-        "netclass": "Killswitch",
+        "netclass": "Red",
         "pattern": "Killswitch"
       },
       {
-        "netclass": "LBeam",
+        "netclass": "Yellow",
         "pattern": "LBeam"
       },
       {
-        "netclass": "LBlinker",
+        "netclass": "Brown",
         "pattern": "LBlinker"
       },
       {
-        "netclass": "LowBat",
+        "netclass": "Purple",
         "pattern": "LowBat"
       },
       {
-        "netclass": "PLight",
+        "netclass": "Blue",
         "pattern": "PLight"
       },
       {
-        "netclass": "RBlinker",
+        "netclass": "Green",
         "pattern": "RBlinker"
       },
       {
@@ -1115,48 +940,60 @@
         "pattern": "RRight-"
       },
       {
-        "netclass": "VInst",
+        "netclass": "Green",
         "pattern": "VInst"
       },
       {
-        "netclass": "VLight",
+        "netclass": "Blue",
         "pattern": "VLight"
       },
       {
-        "netclass": "VOutlet",
+        "netclass": "Orange",
         "pattern": "VOutlet"
       },
       {
-        "netclass": "VRadio",
+        "netclass": "Yellow",
         "pattern": "VRadio*"
       },
       {
-        "netclass": "Accessory",
+        "netclass": "Orange",
         "pattern": "Accessory"
       },
       {
-        "netclass": "AuxSwitch",
-        "pattern": "AuxSwitch*"
+        "netclass": "Yellow",
+        "pattern": "AuxSwitch"
       },
       {
-        "netclass": "GNDAlt",
+        "netclass": "Gray",
         "pattern": "GND\\w+"
       },
       {
-        "netclass": "LightSensor",
-        "pattern": "LightSensor"
+        "netclass": "Orange",
+        "pattern": "AuxLBeam"
       },
       {
-        "netclass": "Default",
-        "pattern": "/Main board/Dimmer1"
+        "netclass": "Gray",
+        "pattern": "AuxHBeam"
       },
       {
-        "netclass": "Default",
-        "pattern": "/Main board/PLightSensor"
+        "netclass": "Blue",
+        "pattern": "AuxBeams"
       },
       {
-        "netclass": "Default",
-        "pattern": "/Main board/Dimmer2"
+        "netclass": "Gray",
+        "pattern": "VOutlet_Jack"
+      },
+      {
+        "netclass": "Gray",
+        "pattern": "HazardLed"
+      },
+      {
+        "netclass": "Purple",
+        "pattern": "LowBat"
+      },
+      {
+        "netclass": "Blue",
+        "pattern": "PLight"
       }
     ]
   },
@@ -1243,6 +1080,10 @@
     [
       "74c2db39-21c2-4028-99b6-acc90560d53b",
       "Cable Harness"
+    ],
+    [
+      "cd89aa2b-c893-42fb-9925-ff5352d2269d",
+      "Power Delivery"
     ]
   ],
   "text_variables": {}
