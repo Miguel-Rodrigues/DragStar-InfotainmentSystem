@@ -577,7 +577,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -605,7 +605,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J28") (unit 1)
+          (reference "J80") (unit 1)
         )
       )
     )
@@ -633,7 +633,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J36") (unit 1)
+          (reference "J63") (unit 1)
         )
       )
     )
@@ -661,7 +661,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J17") (unit 1)
+          (reference "J54") (unit 1)
         )
       )
     )
@@ -689,7 +689,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J34") (unit 1)
+          (reference "J73") (unit 1)
         )
       )
     )
@@ -717,7 +717,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J23") (unit 1)
+          (reference "J57") (unit 1)
         )
       )
     )
@@ -745,7 +745,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J33") (unit 1)
+          (reference "J71") (unit 1)
         )
       )
     )
@@ -773,7 +773,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J29") (unit 1)
+          (reference "J60") (unit 1)
         )
       )
     )
@@ -801,7 +801,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J20") (unit 1)
+          (reference "J76") (unit 1)
         )
       )
     )
@@ -851,7 +851,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J42") (unit 1)
+          (reference "J68") (unit 1)
         )
       )
     )
@@ -879,7 +879,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J30") (unit 1)
+          (reference "J62") (unit 1)
         )
       )
     )
@@ -907,7 +907,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J35") (unit 1)
+          (reference "J61") (unit 1)
         )
       )
     )
@@ -916,7 +916,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 185.42 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ba4f4cf-1e9e-41a2-9ab2-0416160cc93f)
-    (property "Reference" "J41" (at 186.69 108.585 0)
+    (property "Reference" "J81" (at 186.69 108.585 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 186.69 111.125 0)
@@ -933,7 +933,7 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J41") (unit 1)
+          (reference "J81") (unit 1)
         )
       )
     )
@@ -961,7 +961,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J37") (unit 1)
+          (reference "J65") (unit 1)
         )
       )
     )
@@ -989,7 +989,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J26") (unit 1)
+          (reference "J79") (unit 1)
         )
       )
     )
@@ -1017,7 +1017,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J21") (unit 1)
+          (reference "J56") (unit 1)
         )
       )
     )
@@ -1045,7 +1045,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J39") (unit 1)
+          (reference "J72") (unit 1)
         )
       )
     )
@@ -1073,7 +1073,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J76") (unit 1)
+          (reference "J69") (unit 1)
         )
       )
     )
@@ -1101,7 +1101,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J25") (unit 1)
+          (reference "J58") (unit 1)
         )
       )
     )
@@ -1129,7 +1129,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J31") (unit 1)
+          (reference "J64") (unit 1)
         )
       )
     )
@@ -1157,7 +1157,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J27") (unit 1)
+          (reference "J59") (unit 1)
         )
       )
     )
@@ -1185,7 +1185,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J32") (unit 1)
+          (reference "J66") (unit 1)
         )
       )
     )
@@ -1213,7 +1213,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J75") (unit 1)
+          (reference "J70") (unit 1)
         )
       )
     )
@@ -1241,7 +1241,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J24") (unit 1)
+          (reference "J78") (unit 1)
         )
       )
     )
@@ -1269,7 +1269,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J19") (unit 1)
+          (reference "J55") (unit 1)
         )
       )
     )
@@ -1297,7 +1297,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J22") (unit 1)
+          (reference "J77") (unit 1)
         )
       )
     )
@@ -1325,7 +1325,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J18") (unit 1)
+          (reference "J75") (unit 1)
         )
       )
     )
@@ -1353,7 +1353,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J38") (unit 1)
+          (reference "J67") (unit 1)
         )
       )
     )
@@ -1381,7 +1381,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b5dc7f0c-0156-4d15-bb1e-30bd601a65d0"
-          (reference "J40") (unit 1)
+          (reference "J74") (unit 1)
         )
       )
     )

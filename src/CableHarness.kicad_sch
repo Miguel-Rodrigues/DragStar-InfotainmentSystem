@@ -3276,7 +3276,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 195.58 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 006916d0-e589-417a-8771-d59e2e83921e)
-    (property "Reference" "J52" (at 199.39 149.5182 0)
+    (property "Reference" "J93" (at 199.39 149.5182 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Car Socket" (at 199.39 146.9782 0)
@@ -3293,7 +3293,7 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J52") (unit 1)
+          (reference "J93") (unit 1)
         )
       )
     )
@@ -3324,7 +3324,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -3352,7 +3352,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -3380,7 +3380,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -3408,10 +3408,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -3420,7 +3420,7 @@
   (symbol (lib_id "SamacSys_Parts:1217080-1") (at 97.79 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a097f63-6e37-42bd-a804-dd3a4c1be5e2)
-    (property "Reference" "J69" (at 88.9 50.8 0)
+    (property "Reference" "J?" (at 88.9 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1217080-1" (at 93.98 46.99 0)
@@ -3461,13 +3461,13 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
-          (reference "J69") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b/cd89aa2b-c893-42fb-9925-ff5352d2269d"
-          (reference "J58") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J70") (unit 1)
+          (reference "J87") (unit 1)
         )
       )
     )
@@ -3495,7 +3495,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -3542,7 +3542,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J43") (unit 1)
+          (reference "J88") (unit 1)
         )
       )
     )
@@ -3570,7 +3570,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -3601,7 +3601,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -3648,7 +3648,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J48") (unit 1)
+          (reference "J86") (unit 1)
         )
       )
     )
@@ -3677,7 +3677,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J54") (unit 1)
+          (reference "J92") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
           (reference "J?") (unit 1)
@@ -3718,7 +3718,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J55") (unit 1)
+          (reference "J85") (unit 1)
         )
       )
     )
@@ -3746,7 +3746,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -3784,7 +3784,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J51") (unit 1)
+          (reference "J84") (unit 1)
         )
       )
     )
@@ -3840,13 +3840,13 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b/cd89aa2b-c893-42fb-9925-ff5352d2269d"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -3877,7 +3877,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -3886,7 +3886,7 @@
   (symbol (lib_id "Local Components:GNDDash") (at 182.88 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57a91a4e-a3bd-4870-a79d-6e1e5ae776d1)
-    (property "Reference" "#PWR092" (at 189.23 123.19 0)
+    (property "Reference" "#PWR0100" (at 189.23 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDDash" (at 190.5 123.19 90)
@@ -3902,7 +3902,7 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -3944,7 +3944,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J46") (unit 1)
+          (reference "J91") (unit 1)
         )
       )
     )
@@ -3953,7 +3953,7 @@
   (symbol (lib_id "Local Components:GNDDash") (at 251.46 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68757c52-e5bd-4dbc-b05e-96f113473413)
-    (property "Reference" "#PWR094" (at 257.81 124.46 0)
+    (property "Reference" "#PWR0112" (at 257.81 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDDash" (at 259.08 124.46 90)
@@ -3969,7 +3969,7 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -3978,7 +3978,7 @@
   (symbol (lib_id "Local Components:GNDDash") (at 124.46 49.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6af927a8-b59e-46af-83bf-53c59bc77c14)
-    (property "Reference" "#PWR027" (at 118.11 49.53 0)
+    (property "Reference" "#PWR?" (at 118.11 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDDash" (at 120.65 49.53 90)
@@ -3994,10 +3994,10 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -4028,7 +4028,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -4059,7 +4059,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -4093,7 +4093,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -4121,7 +4121,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -4152,7 +4152,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -4186,7 +4186,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -4214,7 +4214,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -4248,7 +4248,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -4279,7 +4279,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -4307,7 +4307,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -4338,7 +4338,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -4380,7 +4380,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J49") (unit 1)
+          (reference "J90") (unit 1)
         )
       )
     )
@@ -4414,7 +4414,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -4456,7 +4456,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J45") (unit 1)
+          (reference "J83") (unit 1)
         )
       )
     )
@@ -4484,7 +4484,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -4524,7 +4524,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J44") (unit 1)
+          (reference "J82") (unit 1)
         )
       )
     )
@@ -4566,7 +4566,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J47") (unit 1)
+          (reference "J94") (unit 1)
         )
       )
     )
@@ -4600,7 +4600,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -4631,7 +4631,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -4660,7 +4660,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J53") (unit 1)
+          (reference "J89") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
           (reference "J?") (unit 1)
@@ -4697,7 +4697,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -4728,7 +4728,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -4759,7 +4759,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -4801,7 +4801,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J50") (unit 1)
+          (reference "J95") (unit 1)
         )
       )
     )
@@ -4832,7 +4832,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -4863,7 +4863,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )

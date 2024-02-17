@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.5,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 1.2,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -434,13 +434,16 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Relay (Custom)"
+      "Relay (Custom)",
+      "Local Footprints",
+      "SamacSys_Parts"
     ],
     "pinned_symbol_libs": [
       "Local Components",
       "power",
       "Modules",
-      "Relays (Custom)"
+      "Relays (Custom)",
+      "Logic"
     ]
   },
   "meta": {

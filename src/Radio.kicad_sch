@@ -1439,10 +1439,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "Killswitch" (shape output) (at 177.8 96.52 0) (fields_autoplaced)
+  (global_label "Key" (shape output) (at 177.8 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid aca914e4-37c4-4be4-9d06-6864ef13b89d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 189.8377 96.52 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 184.032 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1506,7 +1506,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J13") (unit 1)
+          (reference "J47") (unit 1)
         )
       )
     )
@@ -1536,7 +1536,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J12") (unit 1)
+          (reference "J49") (unit 1)
         )
       )
     )
@@ -1565,7 +1565,7 @@
           (reference "LS?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "LS1") (unit 1)
+          (reference "LS2") (unit 1)
         )
       )
     )
@@ -1593,7 +1593,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -1621,7 +1621,7 @@
           (reference "#FLG?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#FLG010") (unit 1)
+          (reference "#FLG011") (unit 1)
         )
       )
     )
@@ -1665,7 +1665,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J10") (unit 1)
+          (reference "J45") (unit 1)
         )
       )
     )
@@ -1694,7 +1694,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J9") (unit 1)
+          (reference "J48") (unit 1)
         )
       )
     )
@@ -1722,7 +1722,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -1751,7 +1751,7 @@
           (reference "LS?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "LS3") (unit 1)
+          (reference "LS1") (unit 1)
         )
       )
     )
@@ -1815,7 +1815,7 @@
   (symbol (lib_id "Local Components:+5VRadio") (at 228.6 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71c64618-dce1-4f2a-b668-e30e0125e8b7)
-    (property "Reference" "#PWR055" (at 232.41 97.79 0)
+    (property "Reference" "#PWR069" (at 232.41 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VRadio" (at 224.79 97.79 90)
@@ -1831,7 +1831,7 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -1871,7 +1871,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J8") (unit 1)
+          (reference "J46") (unit 1)
         )
       )
     )
@@ -1899,7 +1899,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -1931,7 +1931,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "J11") (unit 1)
+          (reference "J50") (unit 1)
         )
       )
     )
@@ -1940,7 +1940,7 @@
   (symbol (lib_id "power:GND") (at 176.53 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c25d1fca-b6ea-4f56-b579-cede6f8fd0de)
-    (property "Reference" "#PWR057" (at 182.88 101.6 0)
+    (property "Reference" "#PWR067" (at 182.88 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 101.6 90)
@@ -1956,7 +1956,7 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -1985,7 +1985,7 @@
           (reference "LS?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "LS2") (unit 1)
+          (reference "LS3") (unit 1)
         )
       )
     )
@@ -2013,7 +2013,7 @@
           (reference "#FLG?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#FLG011") (unit 1)
+          (reference "#FLG010") (unit 1)
         )
       )
     )
@@ -2041,7 +2041,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ddab4412-d22a-447e-a3b8-944a9a68a530"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
