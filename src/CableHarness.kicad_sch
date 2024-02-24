@@ -3276,7 +3276,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 195.58 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 006916d0-e589-417a-8771-d59e2e83921e)
-    (property "Reference" "J93" (at 199.39 149.5182 0)
+    (property "Reference" "J95" (at 199.39 149.5182 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Car Socket" (at 199.39 146.9782 0)
@@ -3293,7 +3293,7 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J93") (unit 1)
+          (reference "J95") (unit 1)
         )
       )
     )
@@ -3467,7 +3467,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J87") (unit 1)
+          (reference "J89") (unit 1)
         )
       )
     )
@@ -3542,7 +3542,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J88") (unit 1)
+          (reference "J90") (unit 1)
         )
       )
     )
@@ -3648,7 +3648,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J86") (unit 1)
+          (reference "J88") (unit 1)
         )
       )
     )
@@ -3677,7 +3677,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J92") (unit 1)
+          (reference "J94") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
           (reference "J?") (unit 1)
@@ -3718,7 +3718,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J85") (unit 1)
+          (reference "J87") (unit 1)
         )
       )
     )
@@ -3784,7 +3784,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J84") (unit 1)
+          (reference "J86") (unit 1)
         )
       )
     )
@@ -3944,7 +3944,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J91") (unit 1)
+          (reference "J93") (unit 1)
         )
       )
     )
@@ -4380,7 +4380,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J90") (unit 1)
+          (reference "J92") (unit 1)
         )
       )
     )
@@ -4456,7 +4456,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J83") (unit 1)
+          (reference "J85") (unit 1)
         )
       )
     )
@@ -4524,7 +4524,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J82") (unit 1)
+          (reference "J84") (unit 1)
         )
       )
     )
@@ -4566,7 +4566,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J94") (unit 1)
+          (reference "J96") (unit 1)
         )
       )
     )
@@ -4660,7 +4660,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J89") (unit 1)
+          (reference "J91") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
           (reference "J?") (unit 1)
@@ -4801,7 +4801,7 @@
           (reference "J?") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/74c2db39-21c2-4028-99b6-acc90560d53b"
-          (reference "J95") (unit 1)
+          (reference "J97") (unit 1)
         )
       )
     )
