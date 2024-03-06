@@ -2744,7 +2744,7 @@
     (property "Value" "Mini360_3A" (at 125.73 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Modules (Custom):Mini360_DC_DC_Buck_Converter" (at 127 105.41 0)
+    (property "Footprint" "Local Footprints:Mini360_DC_DC_Buck_Converter" (at 127 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://mauser.pt/catalog/product_info.php?products_id=096-8732" (at 149.86 114.3 0)
