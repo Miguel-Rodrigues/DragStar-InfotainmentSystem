@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.6,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 5.3,
+          "height": 10.6,
+          "width": 10.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|76500000|143240000|9aa8fdfd-0451-494c-ab16-8c99e2ad2048|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -124,7 +126,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.5,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.3,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -853,7 +855,7 @@
     "netclass_patterns": [
       {
         "netclass": "Red",
-        "pattern": "\\+5V(\\w+)?"
+        "pattern": "+5V"
       },
       {
         "netclass": "Purple",
@@ -864,12 +866,12 @@
         "pattern": "+12V"
       },
       {
-        "netclass": "White-Thick",
+        "netclass": "Red-Thick",
         "pattern": "+BATT"
       },
       {
-        "netclass": "Red-Thick",
-        "pattern": "+VDC"
+        "netclass": "White-Thick",
+        "pattern": "MainRelay"
       },
       {
         "netclass": "Green-Yellow",
@@ -901,10 +903,10 @@
       },
       {
         "netclass": "Red",
-        "pattern": "Key"
+        "pattern": "Key*"
       },
       {
-        "netclass": "Red",
+        "netclass": "Red-Thick",
         "pattern": "Killswitch"
       },
       {
@@ -957,14 +959,14 @@
       },
       {
         "netclass": "Yellow",
-        "pattern": "VRadio*"
+        "pattern": "VAcc"
       },
       {
         "netclass": "Orange",
         "pattern": "Accessory"
       },
       {
-        "netclass": "Yellow",
+        "netclass": "Purple",
         "pattern": "AuxSwitch"
       },
       {
@@ -984,11 +986,11 @@
         "pattern": "AuxBeams"
       },
       {
-        "netclass": "Gray",
+        "netclass": "Red",
         "pattern": "VOutlet_Jack"
       },
       {
-        "netclass": "Gray",
+        "netclass": "Red",
         "pattern": "HazardLed"
       },
       {
@@ -998,6 +1000,14 @@
       {
         "netclass": "Blue",
         "pattern": "PLight"
+      },
+      {
+        "netclass": "Black-Thick",
+        "pattern": "-BATT"
+      },
+      {
+        "netclass": "Purple",
+        "pattern": "VInstFuse"
       }
     ]
   },
@@ -1007,8 +1017,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "dragstar-infotainment.step",
+      "vrml": "dragstar-infotainment.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -1078,20 +1088,8 @@
       "Accessories"
     ],
     [
-      "b5dc7f0c-0156-4d15-bb1e-30bd601a65d0",
-      "Motorcycle Harness"
-    ],
-    [
       "74c2db39-21c2-4028-99b6-acc90560d53b",
-      "Cable Harness"
-    ],
-    [
-      "cd89aa2b-c893-42fb-9925-ff5352d2269d",
-      "Power Delivery"
-    ],
-    [
-      "86972ad5-794a-4561-975c-ce46d2d4ed52",
-      "XOR 74LS00"
+      "Cable harness"
     ]
   ],
   "text_variables": {}

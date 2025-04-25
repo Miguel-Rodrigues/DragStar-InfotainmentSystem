@@ -8,9 +8,7 @@
     (title "Drag Star 650 infotainment circuit")
     (date "2023-04-12")
     (rev "2.4")
-    (comment 1 "Wire gauge: 1mm² / 18AWG")
-    (comment 3 "Labels at the cable harness are in reference to each connected component")
-    (comment 4 "Labels are in reference to the local I/O scope boxes")
+    (comment 4 "Wire gauge: 1mm² / 18AWG")
   )
 
   (lib_symbols
@@ -55,7 +53,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 74c2db39-21c2-4028-99b6-acc90560d53b)
-    (property "Sheetname" "Cable Harness" (at 114.3 88.1884 0)
+    (property "Sheetname" "Cable harness" (at 114.3 88.1884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "CableHarness.kicad_sch" (at 114.3 140.2846 0)
@@ -64,23 +62,6 @@
     (instances
       (project "dragstar-infotainment"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 88.9) (size 76.2 50.8) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b5dc7f0c-0156-4d15-bb1e-30bd601a65d0)
-    (property "Sheetname" "Motorcycle Harness" (at 25.4 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "MotorcycleHarness.kicad_sch" (at 25.4 140.2846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "dragstar-infotainment"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
       )
     )
   )

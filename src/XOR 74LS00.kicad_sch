@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (comment 4 "Wire gauge: 1mm² / 18AWG")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS00" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)
@@ -439,7 +443,7 @@
     (stroke (width 0) (type default))
     (uuid 67883e2c-84de-43b9-9533-880eecaff166)
   )
-  (wire (pts (xy 152.4 114.3) (xy 151.13 114.3))
+  (wire (pts (xy 161.29 114.3) (xy 160.02 114.3))
     (stroke (width 0) (type default))
     (uuid 7b5d0358-de69-48af-b7e0-43abf7c64621)
   )
@@ -455,7 +459,7 @@
     (stroke (width 0) (type default))
     (uuid a3a62c8b-1db6-4b53-84e9-83eb50a559f0)
   )
-  (wire (pts (xy 124.46 114.3) (xy 125.73 114.3))
+  (wire (pts (xy 133.35 114.3) (xy 134.62 114.3))
     (stroke (width 0) (type default))
     (uuid bb6e4c93-be16-4031-bc8d-fe14338380ee)
   )
@@ -472,7 +476,7 @@
     (uuid f0833f5a-3738-48c2-8ef8-bf1ead524aca)
   )
 
-  (hierarchical_label "GND" (shape input) (at 152.4 114.3 0) (fields_autoplaced)
+  (hierarchical_label "GND" (shape input) (at 161.29 114.3 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3b6d6dda-d807-411c-9e7d-b182c6d85e25)
   )
@@ -484,7 +488,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 83aee55a-b301-4aed-9c9c-dc85ded5caa1)
   )
-  (hierarchical_label "Vcc" (shape input) (at 124.46 114.3 180) (fields_autoplaced)
+  (hierarchical_label "Vcc" (shape input) (at 133.35 114.3 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9352d3de-48b2-4ecc-8c4f-09a44226f51d)
   )
@@ -527,26 +531,26 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
           (reference "U?") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b/86972ad5-794a-4561-975c-ce46d2d4ed52"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2796a2e7-5881-4f63-b03e-84af5d47e27a/66d407c1-8bd9-4e07-b6de-9b429e179811"
           (reference "U2") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "74xx:74LS00") (at 138.43 114.3 90) (unit 5)
+  (symbol (lib_id "74xx:74LS00") (at 147.32 114.3 90) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dcbb752-1293-4c26-a03d-ef210c3f4f9b)
-    (property "Reference" "U?" (at 138.43 105.41 90)
+    (property "Reference" "U?" (at 147.32 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS00" (at 138.43 107.95 90)
+    (property "Value" "74LS00" (at 147.32 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" (at 138.43 114.3 0)
+    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" (at 147.32 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00" (at 138.43 114.3 0)
+    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00" (at 147.32 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d6b7577-5ea3-4701-b5dc-0b6612b36b59))
@@ -568,7 +572,7 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
           (reference "U?") (unit 5)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b/86972ad5-794a-4561-975c-ce46d2d4ed52"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2796a2e7-5881-4f63-b03e-84af5d47e27a/66d407c1-8bd9-4e07-b6de-9b429e179811"
           (reference "U2") (unit 5)
         )
       )
@@ -609,7 +613,7 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
           (reference "U?") (unit 4)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b/86972ad5-794a-4561-975c-ce46d2d4ed52"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2796a2e7-5881-4f63-b03e-84af5d47e27a/66d407c1-8bd9-4e07-b6de-9b429e179811"
           (reference "U2") (unit 4)
         )
       )
@@ -650,7 +654,7 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
           (reference "U?") (unit 2)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b/86972ad5-794a-4561-975c-ce46d2d4ed52"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2796a2e7-5881-4f63-b03e-84af5d47e27a/66d407c1-8bd9-4e07-b6de-9b429e179811"
           (reference "U2") (unit 2)
         )
       )
@@ -691,7 +695,7 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
           (reference "U?") (unit 3)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b/86972ad5-794a-4561-975c-ce46d2d4ed52"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2796a2e7-5881-4f63-b03e-84af5d47e27a/66d407c1-8bd9-4e07-b6de-9b429e179811"
           (reference "U2") (unit 3)
         )
       )
