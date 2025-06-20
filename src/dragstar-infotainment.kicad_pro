@@ -214,6 +214,14 @@
       ],
       "zones_allow_external_fillets": false
     },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -408,10 +416,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "ignore",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "ignore",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -424,9 +437,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "error",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -449,7 +467,7 @@
   },
   "meta": {
     "filename": "dragstar-infotainment.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -464,6 +482,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -481,6 +500,7 @@
         "microvia_drill": 0.1,
         "name": "Black",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgb(72, 72, 72)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -498,6 +518,7 @@
         "microvia_drill": 0.1,
         "name": "Black-Thick",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(72, 72, 72)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -515,6 +536,7 @@
         "microvia_drill": 0.1,
         "name": "Blue",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -532,6 +554,7 @@
         "microvia_drill": 0.1,
         "name": "Brown",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgb(128, 77, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -549,6 +572,7 @@
         "microvia_drill": 0.1,
         "name": "Gray",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -566,6 +590,7 @@
         "microvia_drill": 0.1,
         "name": "Gray-Dashed",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -583,6 +608,7 @@
         "microvia_drill": 0.1,
         "name": "Green",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -600,6 +626,7 @@
         "microvia_drill": 0.1,
         "name": "Green-Dashed",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -617,6 +644,7 @@
         "microvia_drill": 0.1,
         "name": "Green-Yellow",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
         "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -634,6 +662,7 @@
         "microvia_drill": 0.1,
         "name": "Lime-Green",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
         "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -651,6 +680,7 @@
         "microvia_drill": 0.1,
         "name": "Orange",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -668,6 +698,7 @@
         "microvia_drill": 0.1,
         "name": "Purple",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -685,6 +716,7 @@
         "microvia_drill": 0.1,
         "name": "Purple-Dashed",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 12,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -702,6 +734,7 @@
         "microvia_drill": 0.1,
         "name": "Red",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 13,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -719,6 +752,7 @@
         "microvia_drill": 0.1,
         "name": "Red-Thick",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 14,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -736,6 +770,7 @@
         "microvia_drill": 0.1,
         "name": "White",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 15,
         "schematic_color": "rgb(255, 255, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -753,6 +788,7 @@
         "microvia_drill": 0.1,
         "name": "White-Dashed",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 16,
         "schematic_color": "rgb(255, 255, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -770,6 +806,7 @@
         "microvia_drill": 0.1,
         "name": "White-Thick",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 17,
         "schematic_color": "rgb(255, 255, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -787,6 +824,7 @@
         "microvia_drill": 0.1,
         "name": "Yellow",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 18,
         "schematic_color": "rgb(255, 255, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -795,7 +833,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -963,14 +1001,89 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "dragstar-infotainment.step",
+      "svg": "",
       "vrml": "dragstar-infotainment.wrl"
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -984,6 +1097,11 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -1004,11 +1122,13 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "./",
+    "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
@@ -1016,7 +1136,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      ""
+      "Root"
     ],
     [
       "5d40715c-dfc9-4b95-9cc7-adbd4b609d9b",
