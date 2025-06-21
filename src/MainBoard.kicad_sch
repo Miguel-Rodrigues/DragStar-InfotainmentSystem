@@ -1352,6 +1352,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:BZV55C2V7"
 			(pin_numbers
 				(hide yes)
@@ -1854,6 +2027,156 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3598,7 +3921,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3607,15 +3930,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 3.175 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3632,6 +3955,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3640,7 +3972,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3649,19 +3981,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -3672,7 +3995,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -3683,8 +4006,19 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -3694,9 +4028,38 @@
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -3714,16 +4077,16 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "B"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4868,16 +5231,10 @@
 		(uuid "0004128d-b595-41a2-a6d4-88a507841527")
 	)
 	(junction
-		(at 137.16 137.16)
+		(at 116.84 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0253462a-ef8c-4a81-b24f-b1ae368da474")
-	)
-	(junction
-		(at 149.86 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c03dab0-3e45-4217-a05f-320eebca6e70")
 	)
 	(junction
 		(at 138.43 163.83)
@@ -4910,6 +5267,18 @@
 		(uuid "22ec93a1-a1f7-42b0-8998-727ec79ddedd")
 	)
 	(junction
+		(at 129.54 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23e218bf-9149-467e-ad3d-c5af19cb5b33")
+	)
+	(junction
+		(at 129.54 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "253028d3-3a55-4a37-b5ee-1beb9c4817b3")
+	)
+	(junction
 		(at 252.73 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4922,19 +5291,13 @@
 		(uuid "2fca942c-b62c-4bb1-9b07-f1f30bb2fc97")
 	)
 	(junction
-		(at 137.16 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31049566-f070-40fb-925e-03e6fec4e336")
-	)
-	(junction
 		(at 252.73 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3339537f-5c85-43a3-a972-67e948e895fb")
 	)
 	(junction
-		(at 144.78 113.03)
+		(at 124.46 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3870fbca-99b1-4428-a02a-4440435a0b64")
@@ -4964,7 +5327,7 @@
 		(uuid "446dec6c-e0fe-427f-8048-569eb58b9ae5")
 	)
 	(junction
-		(at 137.16 113.03)
+		(at 116.84 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54ba080e-5c19-4cb5-8df0-61dec3399707")
@@ -4986,6 +5349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d8b331c-e814-46cd-8f3b-278984c8ce5e")
+	)
+	(junction
+		(at 129.54 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "730acdd7-d046-44a2-8b92-5303facfefd8")
 	)
 	(junction
 		(at 162.56 181.61)
@@ -5012,13 +5381,13 @@
 		(uuid "7ff916a2-00a6-4d35-a7cc-3fa898e5fae4")
 	)
 	(junction
-		(at 144.78 120.65)
+		(at 124.46 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "816fec00-cb36-4f9d-aeb3-ea1603542d43")
 	)
 	(junction
-		(at 137.16 127)
+		(at 116.84 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "825cefc2-e9cb-4c2f-9156-aec272dcc19e")
@@ -5034,6 +5403,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "886a1077-d4e2-4001-913b-1d372280a0e4")
+	)
+	(junction
+		(at 116.84 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c21e972-ca34-49a0-b5f4-2f6ca63fd3ef")
 	)
 	(junction
 		(at 30.48 45.72)
@@ -5102,10 +5477,10 @@
 		(uuid "af823b51-d045-4a64-87d0-877390788c23")
 	)
 	(junction
-		(at 149.86 139.7)
+		(at 129.54 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb211520-38c7-4d40-adaa-ff18c1f29cef")
+		(uuid "b9b0741a-d6a4-42c6-a47c-57bc9dd7c6c1")
 	)
 	(junction
 		(at 241.3 154.94)
@@ -5132,7 +5507,7 @@
 		(uuid "c940265e-d09e-4904-84b5-f447922d856e")
 	)
 	(junction
-		(at 137.16 120.65)
+		(at 116.84 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5406801-e270-4a0e-bd64-7277a3b5ba23")
@@ -5168,6 +5543,12 @@
 		(uuid "e4ca8201-a9b7-446a-8522-5fb81674afdd")
 	)
 	(junction
+		(at 162.56 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6ab3f56-d23f-4235-8aa8-d0c02261f82d")
+	)
+	(junction
 		(at 240.03 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5186,7 +5567,7 @@
 		(uuid "f5d47073-c6f8-4300-ace1-a15293c0e88c")
 	)
 	(junction
-		(at 137.16 132.08)
+		(at 116.84 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f63d1fc6-d31f-421d-8100-7a205ff8cc8c")
@@ -5322,13 +5703,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 134.62) (xy 137.16 134.62)
+			(xy 85.09 44.45) (xy 85.09 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13b394e4-58f2-4a54-8834-16cb270d3727")
+		(uuid "14638026-17f2-4beb-a3ee-c4cd2ca56602")
 	)
 	(wire
 		(pts
@@ -5342,7 +5723,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 142.24) (xy 149.86 142.24)
+			(xy 124.46 148.59) (xy 129.54 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5352,7 +5733,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 127) (xy 137.16 132.08)
+			(xy 116.84 133.35) (xy 116.84 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5399,6 +5780,16 @@
 			(type default)
 		)
 		(uuid "16ecae6a-22aa-42e8-a779-c313e1f042ac")
+	)
+	(wire
+		(pts
+			(xy 113.03 148.59) (xy 116.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f3bfc0-69d5-4671-8f18-63a472444639")
 	)
 	(wire
 		(pts
@@ -5552,7 +5943,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 139.7) (xy 151.13 139.7)
+			(xy 129.54 143.51) (xy 130.81 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5622,7 +6013,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 137.16) (xy 137.16 142.24)
+			(xy 116.84 143.51) (xy 116.84 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5632,7 +6023,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 113.03) (xy 144.78 113.03)
+			(xy 128.27 119.38) (xy 124.46 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5769,6 +6160,16 @@
 			(type default)
 		)
 		(uuid "3c1d0e06-631c-49b5-b66c-d9811d7ef840")
+	)
+	(wire
+		(pts
+			(xy 162.56 143.51) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6be1c3-a90f-45f5-ae01-b13c1590a0f5")
 	)
 	(wire
 		(pts
@@ -6042,6 +6443,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 138.43) (xy 116.84 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3120bf-d73c-4ec5-aec9-e663fa6ad2c7")
+	)
+	(wire
+		(pts
 			(xy 252.73 154.94) (xy 252.73 156.21)
 		)
 		(stroke
@@ -6052,7 +6463,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 67.31) (xy 90.17 57.15)
+			(xy 87.63 67.31) (xy 87.63 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6092,16 +6503,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 139.7) (xy 149.86 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60b39544-ec00-4054-b3a1-1e4279f9ed4b")
-	)
-	(wire
-		(pts
 			(xy 240.03 134.62) (xy 242.57 134.62)
 		)
 		(stroke
@@ -6122,7 +6523,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 144.78 127)
+			(xy 129.54 133.35) (xy 124.46 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6212,16 +6613,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 132.08) (xy 137.16 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705cb1b4-9c3a-4744-b759-182f63419926")
-	)
-	(wire
-		(pts
 			(xy 250.19 154.94) (xy 252.73 154.94)
 		)
 		(stroke
@@ -6239,6 +6630,26 @@
 			(type default)
 		)
 		(uuid "72417476-12bc-430a-b3e7-db81e7c0c53e")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 116.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72da514d-111e-41c5-9e6e-41fa32127a8b")
+	)
+	(wire
+		(pts
+			(xy 129.54 143.51) (xy 129.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742f7c5c-5550-43a5-99d0-8f6c24cf03f4")
 	)
 	(wire
 		(pts
@@ -6312,13 +6723,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 134.62) (xy 137.16 137.16)
+			(xy 162.56 143.51) (xy 162.56 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f7efc2f-c224-43be-af4b-3e03aaba01b1")
+		(uuid "8246e093-5301-4c28-b8a2-dd8479df2ae3")
+	)
+	(wire
+		(pts
+			(xy 162.56 148.59) (xy 162.56 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8573c5f5-06cd-47ff-81cf-b6b26085d5db")
 	)
 	(wire
 		(pts
@@ -6452,7 +6873,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 113.03) (xy 137.16 113.03)
+			(xy 118.11 113.03) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6462,7 +6883,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 137.16) (xy 149.86 137.16)
+			(xy 124.46 143.51) (xy 129.54 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6493,7 +6914,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 129.54) (xy 149.86 129.54)
+			(xy 130.81 133.35) (xy 129.54 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6603,7 +7024,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 120.65) (xy 149.86 120.65)
+			(xy 124.46 127) (xy 129.54 127)
 		)
 		(stroke
 			(width 0)
@@ -6683,6 +7104,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 143.51) (xy 113.03 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74d9a09-05b6-4eb8-91c5-dd0ea56ff5ad")
+	)
+	(wire
+		(pts
 			(xy 48.26 55.88) (xy 57.15 55.88)
 		)
 		(stroke
@@ -6750,16 +7181,6 @@
 			(type default)
 		)
 		(uuid "ae5546a8-b86f-4ca4-8b00-b96639eef534")
-	)
-	(wire
-		(pts
-			(xy 149.86 139.7) (xy 149.86 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af017959-bb1a-422c-a95f-7607f33419d0")
 	)
 	(wire
 		(pts
@@ -6973,6 +7394,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 148.59) (xy 143.51 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4523de0-968d-42f2-b8db-f63fa84a8cc5")
+	)
+	(wire
+		(pts
 			(xy 252.73 123.19) (xy 252.73 124.46)
 		)
 		(stroke
@@ -7023,7 +7454,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 129.54) (xy 149.86 132.08)
+			(xy 129.54 133.35) (xy 129.54 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7063,16 +7494,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 129.54) (xy 149.86 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccda606f-aabe-4916-85e4-d3c6981097e0")
-	)
-	(wire
-		(pts
 			(xy 252.73 114.3) (xy 252.73 115.57)
 		)
 		(stroke
@@ -7104,7 +7525,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 132.08) (xy 149.86 132.08)
+			(xy 124.46 138.43) (xy 129.54 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7274,6 +7695,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 138.43) (xy 161.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e259cd-252e-4dfd-b538-c52db693afde")
+	)
+	(wire
+		(pts
 			(xy 246.38 66.04) (xy 246.38 71.12)
 		)
 		(stroke
@@ -7322,6 +7753,16 @@
 		)
 		(uuid "e8009d8e-4256-43df-8e62-c89a253480b7")
 	)
+	(wire
+		(pts
+			(xy 129.54 138.43) (xy 143.51 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa2546d-b67f-41cc-9c33-8b988834061d")
+	)
 	(polyline
 		(pts
 			(xy 12.7 99.06) (xy 284.48 99.06)
@@ -7341,6 +7782,16 @@
 			(type default)
 		)
 		(uuid "ec95ef40-c321-4a34-8400-d8b8e59773ed")
+	)
+	(wire
+		(pts
+			(xy 162.56 148.59) (xy 161.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6fc686-299c-46ad-9f65-188b5ccb2ddc")
 	)
 	(wire
 		(pts
@@ -7414,7 +7865,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 127) (xy 137.16 120.65)
+			(xy 116.84 133.35) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -7454,7 +7905,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 67.31) (xy 90.17 67.31)
+			(xy 96.52 67.31) (xy 87.63 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7684,22 +8135,22 @@
 	)
 	(global_label "Hazard"
 		(shape input)
-		(at 135.89 134.62 180)
+		(at 113.03 143.51 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "53f173a0-1a94-4af0-887a-0f744c04e71f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.3924 134.62 0)
+			(at 113.03 133.933 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7904,22 +8355,22 @@
 	)
 	(global_label "HazardLedReturn"
 		(shape input)
-		(at 132.08 113.03 180)
+		(at 118.11 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "818edde8-1734-4d35-b4d9-1591bf0d2151")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.1482 113.03 0)
+			(at 137.1212 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7969,7 +8420,7 @@
 	)
 	(global_label "PLight"
 		(shape input)
-		(at 148.59 113.03 0)
+		(at 128.27 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7979,7 +8430,7 @@
 		)
 		(uuid "8b6043c3-4e47-400e-b654-834052268e2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.4224 113.03 0)
+			(at 137.1024 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,8 +8463,8 @@
 		)
 	)
 	(global_label "RBlinker"
-		(shape output)
-		(at 151.13 139.7 0)
+		(shape bidirectional)
+		(at 130.81 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8023,7 +8474,7 @@
 		)
 		(uuid "8bc3a08c-6a8c-45f6-a453-9d4c801f1367")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.8977 139.7 0)
+			(at 142.7684 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,8 +8815,8 @@
 		)
 	)
 	(global_label "LBlinker"
-		(shape output)
-		(at 151.13 129.54 0)
+		(shape bidirectional)
+		(at 130.81 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8375,7 +8826,7 @@
 		)
 		(uuid "e7e4ecc2-cf59-421f-bed2-63fee684e9a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6558 129.54 0)
+			(at 142.5265 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,7 +8904,7 @@
 	)
 	(global_label "HazardLed"
 		(shape output)
-		(at 149.86 120.65 0)
+		(at 129.54 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8463,7 +8914,7 @@
 		)
 		(uuid "ffc35225-334b-4011-8d0c-a6d0763f4acc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6233 120.65 0)
+			(at 142.3033 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,6 +9441,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 156.21 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "068c58db-d5f3-4f06-8d2c-7195c442f390")
+		(property "Reference" "JP1"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 159.512 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 156.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 156.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76baa82b-cc3f-4c8d-8bab-7a4853425b1d")
+		)
+		(pin "1"
+			(uuid "81e8d2f1-f063-46a1-8383-25d1e94d3019")
+		)
+		(instances
+			(project "dragstar-infotainment"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:1217080-1")
 		(at 240.03 156.21 180)
 		(unit 1)
@@ -9196,7 +9715,7 @@
 	)
 	(symbol
 		(lib_id "Diode:US1M")
-		(at 137.16 116.84 270)
+		(at 116.84 123.19 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9205,7 +9724,7 @@
 		(dnp no)
 		(uuid "0a731759-f039-49d3-858e-4dcf780f4575")
 		(property "Reference" "D4"
-			(at 134.62 114.3 90)
+			(at 114.3 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9732,7 @@
 			)
 		)
 		(property "Value" "US1M"
-			(at 134.62 116.84 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9741,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 132.715 116.84 0)
+			(at 112.395 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9750,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
-			(at 137.16 116.84 0)
+			(at 116.84 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +9759,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 116.84 0)
+			(at 116.84 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,7 +9767,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 137.16 116.84 0)
+			(at 116.84 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +9776,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 137.16 116.84 0)
+			(at 116.84 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +9785,7 @@
 			)
 		)
 		(property "Vendor" "Mauser"
-			(at 137.16 116.84 0)
+			(at 116.84 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9794,7 @@
 			)
 		)
 		(property "Vendor Link" "https://mauser.pt/catalog/product_info.php?products_id=007-0391"
-			(at 137.16 116.84 0)
+			(at 116.84 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +9803,7 @@
 			)
 		)
 		(property "Vendor Ref" "007-0391"
-			(at 137.16 116.84 0)
+			(at 116.84 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +9894,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 140.97 137.16 180)
+		(at 120.65 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9383,7 +9902,7 @@
 		(dnp no)
 		(uuid "0ea9bd63-aa7e-466b-992c-56bf4ead2138")
 		(property "Reference" "D9"
-			(at 144.78 135.89 0)
+			(at 124.46 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +9910,7 @@
 			)
 		)
 		(property "Value" "SK510"
-			(at 146.05 138.43 0)
+			(at 125.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +9918,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
-			(at 140.97 137.16 0)
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9408,7 +9927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 137.16 0)
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9417,7 +9936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 137.16 0)
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,7 +9944,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 140.97 137.16 0)
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,7 +9953,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 137.16 0)
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,6 +10948,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 87.63 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "348a8cad-c0a9-4319-a702-04cab07c25df")
+		(property "Reference" "SW8"
+			(at 92.71 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 92.71 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 87.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "424bc8d3-61b3-409a-b88e-3c1918d58524")
+		)
+		(pin "1"
+			(uuid "01c4cd20-2516-4a87-9b6e-39a34923482a")
+		)
+		(pin "3"
+			(uuid "d5fe5125-bdcc-4219-ad29-ecd5be4e844c")
+		)
+		(instances
+			(project "dragstar-infotainment"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Local Components:GNDDash")
 		(at 82.55 113.03 0)
 		(mirror x)
@@ -10560,7 +11152,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 140.97 132.08 180)
+		(at 120.65 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10568,7 +11160,7 @@
 		(dnp no)
 		(uuid "399d0293-d235-4863-aded-daeb981f55d6")
 		(property "Reference" "D8"
-			(at 144.78 130.81 0)
+			(at 124.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10576,7 +11168,7 @@
 			)
 		)
 		(property "Value" "SK510"
-			(at 146.05 133.35 0)
+			(at 125.73 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +11176,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
-			(at 140.97 132.08 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +11185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 132.08 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +11194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 132.08 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,7 +11202,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 140.97 132.08 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +11211,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 132.08 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,8 +11914,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 147.32 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "464873a9-c585-429c-91ca-90cce34bc477")
+		(property "Reference" "R21"
+			(at 145.034 146.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15W"
+			(at 149.86 146.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 147.574 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 147.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb0ef500-8c49-4d28-9c2c-93dfe6981572")
+		)
+		(pin "2"
+			(uuid "1fb6ef8a-72e2-42d8-8823-b675800ffb4a")
+		)
+		(instances
+			(project "dragstar-infotainment"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:US1M")
-		(at 144.78 116.84 90)
+		(at 124.46 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11331,7 +11990,7 @@
 		(dnp no)
 		(uuid "469d5169-6c70-43b8-b082-39ee2086e0b4")
 		(property "Reference" "D11"
-			(at 147.32 116.84 90)
+			(at 127 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11339,7 +11998,7 @@
 			)
 		)
 		(property "Value" "US1M"
-			(at 147.32 120.65 0)
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11348,7 +12007,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 149.225 116.84 0)
+			(at 128.905 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +12016,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
-			(at 144.78 116.84 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +12025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 116.84 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11374,7 +12033,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 144.78 116.84 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11383,7 +12042,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 144.78 116.84 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11392,7 +12051,7 @@
 			)
 		)
 		(property "Vendor" "Mauser"
-			(at 144.78 116.84 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11401,7 +12060,7 @@
 			)
 		)
 		(property "Vendor Link" "https://mauser.pt/catalog/product_info.php?products_id=007-0391"
-			(at 144.78 116.84 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11410,7 +12069,7 @@
 			)
 		)
 		(property "Vendor Ref" "007-0391"
-			(at 144.78 116.84 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11567,7 +12226,7 @@
 	)
 	(symbol
 		(lib_id "Diode:US1M")
-		(at 140.97 120.65 180)
+		(at 120.65 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11575,7 +12234,7 @@
 		(dnp no)
 		(uuid "501dccaf-aef1-4325-abfc-0c5cb0c4ec83")
 		(property "Reference" "D6"
-			(at 140.97 123.19 0)
+			(at 120.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11583,7 +12242,7 @@
 			)
 		)
 		(property "Value" "US1M"
-			(at 140.97 118.11 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11592,7 +12251,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 140.97 116.205 0)
+			(at 120.65 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,7 +12260,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
-			(at 140.97 120.65 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11610,7 +12269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 120.65 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11618,7 +12277,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 140.97 120.65 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11627,7 +12286,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 120.65 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11636,7 +12295,7 @@
 			)
 		)
 		(property "Vendor" "Mauser"
-			(at 140.97 120.65 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11645,7 +12304,7 @@
 			)
 		)
 		(property "Vendor Link" "https://mauser.pt/catalog/product_info.php?products_id=007-0391"
-			(at 140.97 120.65 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,7 +12313,7 @@
 			)
 		)
 		(property "Vendor Ref" "007-0391"
-			(at 140.97 120.65 0)
+			(at 120.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,6 +12840,72 @@
 			(project "dragstar-infotainment"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_11")
+		(lib_id "power:GND")
+		(at 163.83 143.51 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5be8276b-e044-49d9-86fa-c0e3e449e1f6")
+		(property "Reference" "#PWR091"
+			(at 170.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e1d001c-75f3-4347-ad23-4cabd05613a6")
+		)
+		(instances
+			(project "dragstar-infotainment"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -12723,10 +13448,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "67990ec1-9719-47dc-ae76-6bc85801a376")
 		(property "Reference" "RV1"
-			(at 162.56 157.48 90)
+			(at 160.02 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +13511,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 140.97 127 180)
+		(at 120.65 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12795,7 +13519,7 @@
 		(dnp no)
 		(uuid "67aca4da-41a6-4f2d-a59f-a0b46f8ffe4e")
 		(property "Reference" "D7"
-			(at 144.78 125.73 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12803,7 +13527,7 @@
 			)
 		)
 		(property "Value" "SK510"
-			(at 146.05 128.27 0)
+			(at 125.73 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12811,7 +13535,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
-			(at 140.97 127 0)
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12820,7 +13544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 127 0)
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12829,7 +13553,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 127 0)
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12837,7 +13561,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 140.97 127 0)
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12846,7 +13570,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 127 0)
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,72 +13588,6 @@
 			(project "dragstar-infotainment"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 90.17 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "684c751d-f83a-4386-95fc-3bb9e60f70ce")
-		(property "Reference" "SW1"
-			(at 86.36 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 85.09 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2391274b-0b7e-4a70-acb8-06c4f056b5fb")
-		)
-		(pin "2"
-			(uuid "4b424974-e86b-43fd-b5f1-9c1be85b7bb9")
-		)
-		(instances
-			(project "dragstar-infotainment"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -12994,6 +13652,73 @@
 			(project "dragstar-infotainment"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 147.32 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b4d0d2b-0fd2-4440-a7f8-14769d9f9e48")
+		(property "Reference" "R20"
+			(at 144.78 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15W"
+			(at 149.606 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 147.574 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 147.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62937cf2-1654-407a-a42f-37b14077463e")
+		)
+		(pin "2"
+			(uuid "c2327626-7aba-4fb7-9560-5b1cbbce7d77")
+		)
+		(instances
+			(project "dragstar-infotainment"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13791,6 +14516,74 @@
 			(project "dragstar-infotainment"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
 					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 156.21 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c999b8f-3e36-4eee-b340-4189deeca2cf")
+		(property "Reference" "JP2"
+			(at 156.21 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 156.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 156.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b9650c3-db56-4b0a-b9bf-c6a57afe22ba")
+		)
+		(pin "1"
+			(uuid "6fe84367-e05a-483e-9314-62affbd256cf")
+		)
+		(instances
+			(project "dragstar-infotainment"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -14693,7 +15486,7 @@
 	)
 	(symbol
 		(lib_id "Diode:US1M")
-		(at 140.97 113.03 180)
+		(at 120.65 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14701,7 +15494,7 @@
 		(dnp no)
 		(uuid "9527027e-eec9-401f-9f57-eb60ba40c7b7")
 		(property "Reference" "D5"
-			(at 140.97 115.57 0)
+			(at 120.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14709,7 +15502,7 @@
 			)
 		)
 		(property "Value" "US1M"
-			(at 140.97 110.49 0)
+			(at 120.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14717,7 +15510,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 140.97 108.585 0)
+			(at 120.65 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14726,7 +15519,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
-			(at 140.97 113.03 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14735,7 +15528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 113.03 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14743,7 +15536,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 140.97 113.03 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14752,7 +15545,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 113.03 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14761,7 +15554,7 @@
 			)
 		)
 		(property "Vendor" "Mauser"
-			(at 140.97 113.03 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14770,7 +15563,7 @@
 			)
 		)
 		(property "Vendor Link" "https://mauser.pt/catalog/product_info.php?products_id=007-0391"
-			(at 140.97 113.03 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14779,7 +15572,7 @@
 			)
 		)
 		(property "Vendor Ref" "007-0391"
-			(at 140.97 113.03 0)
+			(at 120.65 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17290,6 +18083,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 85.09 44.45 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3c13a62-8147-4ecf-8d73-b5c04705e695")
+		(property "Reference" "#PWR092"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db89d436-180f-429e-9b7f-ebb10749a480")
+		)
+		(instances
+			(project "dragstar-infotainment"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5d40715c-dfc9-4b95-9cc7-adbd4b609d9b"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 41.91 167.64 0)
 		(mirror x)
@@ -17524,7 +18384,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 140.97 142.24 180)
+		(at 120.65 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17532,7 +18392,7 @@
 		(dnp no)
 		(uuid "e0fbf14e-7315-4d4b-9179-904699ad2ec4")
 		(property "Reference" "D10"
-			(at 144.78 140.97 0)
+			(at 124.46 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17540,7 +18400,7 @@
 			)
 		)
 		(property "Value" "SK510"
-			(at 146.05 143.51 0)
+			(at 125.73 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17548,7 +18408,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMC_Handsoldering"
-			(at 140.97 142.24 0)
+			(at 120.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17557,7 +18417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 142.24 0)
+			(at 120.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17566,7 +18426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 142.24 0)
+			(at 120.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17574,7 +18434,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 140.97 142.24 0)
+			(at 120.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17583,7 +18443,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 142.24 0)
+			(at 120.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
